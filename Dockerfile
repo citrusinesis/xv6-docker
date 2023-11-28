@@ -8,7 +8,6 @@ RUN apt-get -qq update && \
 RUN apt-get install -y \
                     build-essential \
                     gdb \
-                    gcc-multilib-x86-64-linux-gnu \
                     tmux \
                     qemu-system-x86 \
                     gawk \
